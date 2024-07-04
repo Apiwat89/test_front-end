@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7e3e3; /* Soft pink background */
+  }
+  
+  header {
+    background-color: #ea4c89; /* Pink header */
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('heart-bg.jpg'); /* Replace with your love-themed background */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ea4c89;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ea4c89;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ea4c89; /* Pink button */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d3296e; /* Darker pink on hover */
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .feature-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .feature-box h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box p {
+    font-size: 1.1em;
+  }
+  
+  footer {
+    background-color: #ea4c89; /* Pink footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
